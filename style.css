@@ -10,55 +10,13 @@
 body {
   background: hsl(233, 47%, 7%);
   font-family: "inter";
-  min-height: 40vh;
 }
 
-.card-container {
+.container {
   display: flex;
-  width: 60%;
-  height: 430px;
-  margin: 175px auto;
-  background: hsl(244, 38%, 16%);
-}
-
-.card-left {
-  width: 100%;
-  margin-top: 65px;
-  margin-left: 10px;
   position: relative;
-  left: 40px;
-}
-
-h1 {
-  color: hsl(0, 0%, 100%);
-  font-size: 35px;
-}
-
-span {
-  color: hsl(277, 64%, 61%);
-}
-
-p {
-  width: 365px;
-  margin-top: 25px;
-  font-size: 15px;
-  color: hsla(0, 0%, 100%, 0.75);
-  /* line-height: 1.6em; */
-  font-weight: 100;
-}
-
-.stats {
-  display: grid;
-  grid-template-columns: 100px 100px 100px;
-  grid-gap: 40px;
-  color: hsla(0, 0%, 100%);
-  margin-top: 70px;
-  font-size: 10px;
-  /* font-family: 'Lexa Deca'; */
-  font-weight: 400;
-  color: hsla(0, 0%, 100%, 0.6);
-  text-transform: uppercase;
-  list-style: none;
+  width: 60%;
+  background: hsl(244, 38%, 16%);
 }
 
 .attribution {
@@ -68,3 +26,11 @@ p {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/* .right-block {
+    background-image: url(./images/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(96, 27, 143, 0.7);
+    background-blend-mode: multiply;
+} */
